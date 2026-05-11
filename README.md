@@ -107,3 +107,5 @@ Key Members(slack_usernames): paige, rook, mffiedler, mohit, dry923, rsevilla, r
 
 ### Credits
 Thanks to Mary Shakshober ( https://github.com/maryshak1996 ) for designing the logo.
+
+<!-- smoke-test N3: README-only edit; relevance gate must skip. -->
