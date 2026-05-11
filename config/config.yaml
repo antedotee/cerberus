@@ -54,3 +54,7 @@ tunings:
 database:
     database_path: /tmp/cerberus.db                      # Path where cerberus database needs to be stored
     reuse_database: False                                # When enabled, the database is reused to store the failures
+
+smoke_test_section:                                  # Smoke-test section — auto-added by docs-sync matrix C2.
+    enabled: false                                   # Whether the smoke-test feature is on.
+    ttl_seconds: 60                                  # How long smoke-test entries live before expiry.
