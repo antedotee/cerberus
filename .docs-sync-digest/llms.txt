@@ -7,4 +7,5 @@
 
 - cerberus (18 keys)
 - database (2 keys)
+- smoke_test_section (2 keys)
 - tunings (6 keys)

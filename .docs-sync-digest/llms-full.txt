@@ -38,6 +38,17 @@ scenario_type: config_section
 | database_path | database_path | string | /tmp/cerberus.db | false | Path where cerberus database needs to be stored |
 | reuse_database | reuse_database | bool | False | false | When enabled, the database is reused to store the failures |
 
+## scenario: smoke_test_section
+scenario_type: config_section
+description: Smoke-test section — auto-added by docs-sync matrix C2.
+
+### parameters
+
+| name | variable | type | default | required | description |
+| ---- | -------- | ---- | ------- | -------- | ----------- |
+| enabled | enabled | bool | false | false | Whether the smoke-test feature is on. |
+| ttl_seconds | ttl_seconds | number | 60 | false | How long smoke-test entries live before expiry. |
+
 ## scenario: tunings
 scenario_type: config_section
 
